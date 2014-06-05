@@ -3,13 +3,11 @@
 	<head>
 		<title>Monsterous Creations</title>
 		<link rel='stylesheet' type='text/css' media='all' href='style.css'>
-		<link rel='stylesheet' type='text/css' media='screen and (max-width: 500px)' href='mobile.css'>
+		<!-- <link rel='stylesheet' type='text/css' media='screen and (max-width: 500px)' href='mobile.css'> -->
 		<!-- Important Owl stylesheet -->
 		<link rel="stylesheet" href="owl-carousel/owl.carousel.css">
 		<!-- Default Theme -->
 		<link rel="stylesheet" href="owl-carousel/owl.theme.css">
-		<!--  jQuery 1.7+  -->
-		<script src="jquery-1.9.1.min.js"></script>
 		<meta name='viewport' content='width=device-width, initial-scale=1.0, user-scalable=yes'>
 		<script type="text/javascript"></script>		
 		<!-- <link rel="stylesheet" href="css/example.css" />
@@ -208,6 +206,12 @@
 				</a>
 			</div>
 		</footer>
+		<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
 		<script src="owl-carousel/owl.carousel.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function() {
+ 			  $("#owl-example").owlCarousel();
+ 			});
+		</script>
 	</body>
 </html>
