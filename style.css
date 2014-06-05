@@ -1,0 +1,128 @@
+header, footer {
+	border: 1px solid gray; 
+	background-color: #FF0000; 
+}
+
+header nav { 
+	border: 1px dashed black; 
+	float: right; 
+	background-color: #FFFF00; 
+}
+
+header nav a { 
+	margin: 10px; 
+}
+
+section#sidebar { 
+	border: 3px dotted gray; 
+	float: right; 
+	width: 20%; 
+	background-color: white; 
+}
+
+section#articles { 
+	border: 3px dashed black; 
+	margin: 10px; 
+	background-color: #0000FF; 
+}
+
+section#articles article { 
+	border: 2px solid gray; 
+	margin: 10px; 
+	background-color: orange; 
+	height: 300px; 
+}
+
+#First {
+	height: 23%; 
+}
+
+footer a { 
+	float: left; 
+}
+
+section#articles h2 { 
+	border: 1px solid black; 
+	margin: 15px; 
+	float: center; 
+	width: 11%; 
+	background-color: #FFFF00; 
+}
+
+aside { 
+	border: 1px solid; 
+	max-width: 20%; 
+	float: right; 
+}
+
+figure { 
+	border: 1px solid; 
+	margin: 2px; 
+	float: left; 
+	max-width: 13%; 
+	max-height: 70%; 
+}
+
+form { 
+	border: 3px dotted gray; 
+	float: right; 
+	width: 20%; 
+	background-color: gray; 
+}
+
+details summary:after { 
+	content: '(Show Details)'; 
+}
+
+details.open summary:after { 
+	content: '(Hide Details)'; 
+}
+
+details summary { 
+	cursor: pointer; 
+}
+
+.example { 
+	background-color: white; 
+}
+
+#example-heading { 
+	background-color: black; 
+	color: white; 
+}
+
+a [title] { 
+	font-weight: bold; 
+}
+
+@font-face { 
+	font-family: zoomorphica_regular; 
+	src: url(Fonts/zoomorphica_regular/zo______.ttf); 
+}
+
+header h1 { 
+	font-family: zoomorphica_regular; 
+	font-size: 62pt; 
+	text-align: center; 
+	color: #ff0000; 
+}
+
+header h3 { 
+	font-family: zoomorphica_regular; 
+	font-size: 20pt; 
+	text-align: left; 
+	color: #00ff33; 
+}
+
+body { 
+	background-color: black; 
+}
+
+#Second { 
+	width: 100%; 
+	height: 60%; 
+}
+
+footer#copyright { 
+	color: #00ff33; 
+}
