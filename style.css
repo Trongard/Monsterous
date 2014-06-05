@@ -1,6 +1,6 @@
 header, footer {
 	border: 1px solid gray; 
-	background-color: #FF0000; 
+	background-color: #000000; 
 }
 
 header nav { 
@@ -125,4 +125,8 @@ height: 60%;
 
 footer#copyright { 
 color: #00ff33; 
+}
+
+.owl-carousel {
+	border: 1 solid orange;
 }
